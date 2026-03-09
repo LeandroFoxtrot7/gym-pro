@@ -20,9 +20,16 @@ dd {
 }
 
 /* Remove default padding */
-ul[role="list"],
-ol[role="list"] {
+ul,
+ol {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Set core root defaults */
