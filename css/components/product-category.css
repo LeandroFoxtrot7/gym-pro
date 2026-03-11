@@ -45,6 +45,8 @@
 }
 
 .collections {
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 40px;
     display: flex;
     gap: 24px;
