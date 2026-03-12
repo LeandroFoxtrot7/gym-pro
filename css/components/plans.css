@@ -128,3 +128,16 @@
     }
 
 }
+
+@media screen and (max-width:393px) {
+
+    .plans-card {
+        min-width: 200px;
+        padding: 55px
+    }
+
+    .popular-plan p {
+        width: 80px;
+    }
+
+}

@@ -147,6 +147,20 @@
     
     .hero-section {
         background-image: linear-gradient(to bottom, rgba(23, 18, 16, 0.4), rgba(23, 18, 16, 0.9)), url(../../images/banners/banner-mobile.png);
+        background-position: center;
+    }
+
+ }
+
+ @media screen and (max-width:393px) {
+
+    .title {
+        width: 20rem;
+        font-size: 2.5rem;
+    }
+
+    .description {
+        width: 18.75rem;
     }
 
  }

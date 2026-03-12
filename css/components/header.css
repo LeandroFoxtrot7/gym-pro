@@ -135,7 +135,7 @@
         flex-direction: column;
     }
 
-    .nav-center li a{
+    .nav-center li a {
         display: block;
         padding-bottom: 10px;
         width: 100%;
@@ -161,13 +161,31 @@
         margin-bottom: 40px;
     }
 
-    .btn-filled:hover, .btn-outline:hover {
+    .btn-filled:hover,
+    .btn-outline:hover {
         transform: scale(1.00);
         color: #F1F5F9;
     }
 
-    .menu-toggle:checked ~ .nav-container {
+    .menu-toggle:checked~.nav-container {
         right: 0;
     }
 
+}
+
+
+@media screen and (max-width: 480px) {
+    .header-navigation {
+        padding: 2rem;
+    }
+
+    .nav-container {
+        background-color: #171210;
+        border-radius: 12px;
+        padding: 60px 0 0 0;
+        width: 8.12rem;
+    }
+
+    
+    
 }
