@@ -36,6 +36,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.footer-social li:hover {
+    background-color: #64748B;
+    border: 1px solid #1E293B;
 }
 
 .footer-nav {
