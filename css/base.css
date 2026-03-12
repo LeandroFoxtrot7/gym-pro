@@ -5,6 +5,15 @@ body {
 }
 
 main {
-    padding: 0 24px;
-    margin: 0 35.500px;
+    padding: 0 1.5rem;
+    margin: 0 2.21rem;
+}
+
+@media screen and (max-width: 950px) {
+
+    main {
+        padding: 0;
+        margin: 0 1.7rem;
+    }
+
 }

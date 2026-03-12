@@ -31,7 +31,7 @@
     align-items: center;
 }
 
-.highlight-colletions a { 
+.highlight-colletions a {
     display: flex;
     justify-content: end;
     font-size: 16px;
@@ -80,15 +80,15 @@
     border-radius: 24px;
 }
 
-.card:hover::before{
+.card:hover::before {
     opacity: 1;
 }
 
 .casual {
-    background-image: linear-gradient(to bottom, rgba(23, 18, 16, 0.0) , rgba(23, 18, 16, 0.9)), url(../../images/highlight/casual.png);
+    background-image: linear-gradient(to bottom, rgba(23, 18, 16, 0.0), rgba(23, 18, 16, 0.9)), url(../../images/highlight/casual.png);
     background-position: center;
     background-repeat: no-repeat;
-    
+
 }
 
 .casual::after {
@@ -108,10 +108,10 @@
 }
 
 .esporte {
-    background-image: linear-gradient(to bottom, rgba(23, 18, 16, 0.0) , rgba(23, 18, 16, 0.9)), url(../../images/highlight/esporte.png);
+    background-image: linear-gradient(to bottom, rgba(23, 18, 16, 0.0), rgba(23, 18, 16, 0.9)), url(../../images/highlight/esporte.png);
     background-position: center;
     background-repeat: no-repeat;
-    
+
 }
 
 .esporte::after {
@@ -130,10 +130,10 @@
 }
 
 .moderno {
-    background-image: linear-gradient(to bottom, rgba(23, 18, 16, 0.0) , rgba(23, 18, 16, 0.9)), url(../../images/highlight/moderno.png);
+    background-image: linear-gradient(to bottom, rgba(23, 18, 16, 0.0), rgba(23, 18, 16, 0.9)), url(../../images/highlight/moderno.png);
     background-position: center;
     background-repeat: no-repeat;
-    
+
 }
 
 .moderno::after {
@@ -174,3 +174,16 @@
 }
 
 
+@media screen and (max-width: 950px) {
+    .collections {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .highlight-colletions img {
+        display: none;
+    }
+
+    
+}

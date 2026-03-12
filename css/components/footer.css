@@ -23,26 +23,26 @@
     margin: 23.3px 0 23.3px 0;
 }
 
-.footer-social{
+.footer-social {
     display: flex;
     gap: 16px;
 }
 
 .footer-social li {
-   border: 1px solid #64748B;
-   width: 40px;
-   height: 40px;
-   border-radius: 999px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    border: 1px solid #64748B;
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-nav {
     width: 272px;
 }
 
-.footer-nav ul{
+.footer-nav ul {
     margin: 24px 0;
 }
 
@@ -94,4 +94,28 @@
 hr {
     border: none;
     border: 1px solid #64748B;
+}
+
+@media screen and (max-width:950px) {
+    .nav-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        background-color: #0F172A;
+        height: 59.37rem;
+        padding: 5rem 0 2.5rem 0;
+        font-size: 14px;
+    }
+
+    .footer-content {
+        height: 46.87rem;
+    }
+
+    .footer-copy {
+        padding: 1.5rem 0 1.5rem
+    }
+
+
 }
